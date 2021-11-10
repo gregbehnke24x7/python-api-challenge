@@ -1,5 +1,6 @@
 //************************************************************************
 // initial display settings
+//************************************************************************
 var svgWidth = 1000;
 var svgHeight = 600;
 
@@ -15,6 +16,7 @@ var height = svgHeight - margin.top - margin.bottom;
 
 //************************************************************************
 // read data
+//************************************************************************
 d3.csv("assets/data/data.csv").then(function (data) {
   // cast values appropriately
   data.forEach(d => {
